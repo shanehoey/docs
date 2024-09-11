@@ -15,13 +15,13 @@ gists:
   - id: a124e49ef65e74178825b64a92137fa3
     url: https://gist.github.com/shanehoey/a124e49ef65e74178825b64a92137fa3
     createdAt: 2024-09-11T02:27:21Z
-    updatedAt: 2024-09-11T04:05:11Z
+    updatedAt: 2024-09-11T04:18:45Z
     filename: SBA Testing Process.md
     isPublic: false
 share: true
 ---
  
-!()[./assets/00-default.png]
+![00-default.png](./assets/00-default.png)
 
 # SBA Testing Process
 
@@ -32,8 +32,8 @@ The  process assumes the following requirements:
 - To simplify testing each user should be logged into a single teams client,
 - Users should be registering to the SBA correctly.
 - OPTIONS and Inbound pstn calls are Forked correctly, between sbc and sba are correct
-- The process to [[SBA - Simulated Internet outage|simulate internet outages]] is not covered in this section 
-/envelo
+- The process to [simulate internet outages](SBA%20-%20Simulated%20Internet%20outage.md) is not covered in this section 
+/en
 ## Detailed Steps
 
 ### Step 1 -  Getting ready for testing 
@@ -96,7 +96,7 @@ The  process assumes the following requirements:
 
 - Make a outbound PSTN Call, the call should be successful.
 - Make a inbound PSTN Call, the call should be successful.
-~~If calls in either direction are not successful follow this guide to troubleshoot [[SBA - Troubleshooting Teams|SBA - Troubleshooting Teams]].~~
+~~If calls in either direction are not successful follow this guide to troubleshoot [SBA - Troubleshooting Teams](SBA%20-%20Troubleshooting%20Teams.md).~~
 ~~If both calls are successful continue to step 4.~~
 
 ### Step 4 - reverting  back online 

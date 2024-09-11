@@ -11,18 +11,17 @@ tags:
 aliases: 
 created: 2024-09-06T00:00:00.000Z
 modified: 2024-09-06T00:00:00.000Z
-cssclass: banner-image
 gists:
   - id: a124e49ef65e74178825b64a92137fa3
     url: https://gist.github.com/shanehoey/a124e49ef65e74178825b64a92137fa3
     createdAt: 2024-09-11T02:27:21Z
-    updatedAt: 2024-09-11T02:50:00Z
+    updatedAt: 2024-09-11T04:05:11Z
     filename: SBA Testing Process.md
     isPublic: false
 share: true
 ---
  
->[!banner-image] ![[./assets/00-default.png|00-default.png]]
+![[./assets/00-default.png|00-default.png]]
 
 # SBA Testing Process
 
@@ -32,9 +31,9 @@ The  process assumes the following requirements:
 - One or more supported Teams  clients for making and receiving phone calls in survivable mode.
 - To simplify testing each user should be logged into a single teams client,
 - Users should be registering to the SBA correctly.
-- OPTIONS and Inbound PSTN calls are Forked correctly, between SBC and SBA is correct
-- the process to [[SBA - Simulated Internet outage|simulate internet outages]] is not covered in this section 
-/enve
+- OPTIONS and Inbound pstn calls are Forked correctly, between sbc and sba are correct
+- The process to [[SBA - Simulated Internet outage|simulate internet outages]] is not covered in this section 
+/envelo
 ## Detailed Steps
 
 ### Step 1 -  Getting ready for testing 

@@ -15,7 +15,7 @@ gists:
   - id: a124e49ef65e74178825b64a92137fa3
     url: https://gist.github.com/shanehoey/a124e49ef65e74178825b64a92137fa3
     createdAt: 2024-09-11T02:27:21Z
-    updatedAt: 2024-09-11T04:18:45Z
+    updatedAt: 2024-09-11T04:33:27Z
     filename: SBA Testing Process.md
     isPublic: false
 share: true
@@ -24,7 +24,7 @@ share: true
 ![00-default.png](./assets/00-default.png)
 
 # SBA Testing Process
-
+/enve
 The  process assumes the following requirements:
 
 - A Windows PC, used to monitor the SBA and SBC independent to the PC's making telephone calls.
@@ -33,7 +33,7 @@ The  process assumes the following requirements:
 - Users should be registering to the SBA correctly.
 - OPTIONS and Inbound pstn calls are Forked correctly, between sbc and sba are correct
 - The process to [simulate internet outages](SBA%20-%20Simulated%20Internet%20outage.md) is not covered in this section 
-/en
+
 ## Detailed Steps
 
 ### Step 1 -  Getting ready for testing 
@@ -57,8 +57,9 @@ The  process assumes the following requirements:
 
 	>[!TODO] Add Screenshot
 
-- On a PC that will be used to access the SBC, SBA
-	- Install Syslog software on pc from [AudioCodes Syslog](https://tools.audiocodes.com/install/)[AudioCodes Syslog](https://tools.audiocodes.com/install/)
+- On the PC that will be used to monitor the SBC, SBA
+	- Install Syslog software on pc from [AudioCodes Syslog](https://tools.audiocodes.com/install/)
+	- Install [Wireshark](https://www.wireshark.org/download.html) 
 	- Configure the SBC to send syslogs to pc 
 
 	>[!TODO] Add Screenshot

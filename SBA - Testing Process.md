@@ -21,7 +21,7 @@ gists:
 share: true
 ---
  
-![[./assets/00-default.png]]
+!()[./assets/00-default.png]
 
 # SBA Testing Process
 
